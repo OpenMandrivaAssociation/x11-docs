@@ -1,6 +1,6 @@
 Name: x11-docs
-Version: 1.2
-Release: %mkrel 2
+Version: 1.4
+Release: %mkrel 1
 Summary: Xorg X11 documentation
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -35,6 +35,14 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
+%{_datadir}/X11/doc/*sgml
+%{_datadir}/X11/doc/core/*.sgml
+%{_datadir}/X11/doc/fonts/*.sgml
+%{_datadir}/X11/doc/graphics/*.sgml
+%{_datadir}/X11/doc/input/*.sgml
+%{_datadir}/X11/doc/input/*.sgml
+%{_datadir}/X11/doc/platforms/*.sgml
+%{_datadir}/X11/doc/security/*.sgml
 %{_datadir}/X11/doc/MAINTAINERS
 %{_datadir}/X11/doc/hardcopy/BDF/bdf.PS.gz
 %{_datadir}/X11/doc/hardcopy/CTEXT/ctext.PS.gz
@@ -110,12 +118,10 @@ rm -rf %{buildroot}
 %{_datadir}/X11/doc/hardcopy/saver/saver.PS.gz
 %{_datadir}/X11/doc/hardcopy/xfs/design.PS.gz
 %{_datadir}/X11/doc/hardcopy/xtrans/Xtrans.PS.gz
-%{_mandir}/man7/Consortium.7.bz2
-%{_mandir}/man7/Standards.7.bz2
-%{_mandir}/man7/X.7.bz2
-%{_mandir}/man7/XOrgFoundation.7.bz2
-%{_mandir}/man7/XProjectTeam.7.bz2
-%{_mandir}/man7/Xprint.7.bz2
-%{_mandir}/man7/security.7.bz2
-
-
+%{_mandir}/man7/Consortium.7.*
+%{_mandir}/man7/Standards.7.*
+%{_mandir}/man7/X.7.*
+%{_mandir}/man7/XOrgFoundation.7.*
+%{_mandir}/man7/XProjectTeam.7.*
+%{_mandir}/man7/Xprint.7.*
+%{_mandir}/man7/security.7.*
