@@ -1,6 +1,6 @@
 Name: x11-docs
 Version: 1.5
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Xorg X11 documentation
 Group: Development/X11
 URL: http://xorg.freedesktop.org
@@ -10,9 +10,8 @@ BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: x11-util-macros >= 1.0.1
 
-#Obsoletes: xorg-x11-doc < 7.0
-#Provides: xorg-x11-doc = 7.0
-Provides: X11-doc = 7.0
+# This package was used in the transition to modular:
+Obsoletes: xorg-x11-doc
 
 %description
 Xorg X11 documentation
