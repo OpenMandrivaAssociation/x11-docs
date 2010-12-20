@@ -1,5 +1,5 @@
 Name: x11-docs
-Version: 1.5.99.901
+Version: 1.6
 Release: %mkrel 1
 Summary: Xorg X11 documentation
 Group: Development/X11
