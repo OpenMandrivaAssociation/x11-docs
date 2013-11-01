@@ -1,2 +1,4 @@
+removed_sources:
+  xorg-docs-1.6.tar.bz2: be4a0259d52a5f39acbe5aa34d213cceb90f59d8
 sources:
-  "xorg-docs-1.6.tar.bz2": be4a0259d52a5f39acbe5aa34d213cceb90f59d8
+  xorg-docs-1.7.tar.bz2: 565df5219a9d72d81a84f7e75294752ba2ea0cc8
