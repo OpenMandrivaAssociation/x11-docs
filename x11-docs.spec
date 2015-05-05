@@ -1,6 +1,6 @@
 Name:		x11-docs
-Version:	1.7
-Release:	8
+Version:	1.7.1
+Release:	1
 Summary:	Xorg X11 documentation
 Group:		Development/X11
 URL:		http://xorg.freedesktop.org
@@ -10,13 +10,13 @@ BuildRequires:	x11-util-macros >= 1.0.1
 BuildArch:	noarch
 
 %description
-Xorg X11 documentation
+Xorg X11 documentation.
 
 %prep
 %setup -q -n xorg-docs-%{version}
 
 %build
-%configure2_5x	\
+%configure \
 		--x-includes=%{_includedir}\
 		--x-libraries=%{_libdir}
 %make
