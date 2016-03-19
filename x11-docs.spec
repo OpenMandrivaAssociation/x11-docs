@@ -1,6 +1,6 @@
 Name:		x11-docs
 Version:	1.7.1
-Release:	2
+Release:	3
 Summary:	Xorg X11 documentation
 Group:		Development/X11
 URL:		http://xorg.freedesktop.org
