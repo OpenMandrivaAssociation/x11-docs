@@ -3,7 +3,7 @@ Version:	1.7.2
 Release:	2
 Summary:	Xorg X11 documentation
 Group:		Development/X11
-URL:		http://xorg.freedesktop.org
+URL:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/doc/xorg-docs-%{version}.tar.bz2
 License:	MIT
 BuildRequires:	x11-util-macros >= 1.0.1
